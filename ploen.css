@@ -1,0 +1,193 @@
+/* Set whole page fonts and margin */
+body {
+    font-family: gopher, sans-serif;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Set background color of intro grid to pastel pink */
+.pastel {
+    width: 100%;
+    height: 620px;
+    background-color:#F5DADF;
+}
+
+/* Style top navigation bar */
+.topnav {
+    overflow: hidden;
+    padding: 30px 30px;
+}
+
+/* Style the links in the top navigation bar */
+.topnav a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Make the navigation bar links float to the right */
+.topnav-right {
+  float: right;
+}
+
+/* Style the "Ploenta Voraprukpisut" home button */
+#home {
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    padding: 0px 15px;
+}
+
+/* Styling the right nav bar */
+.rightnav-tab {
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    padding: 10px 15px;
+}
+
+/* Styling the right nav bar's hover */
+.rightnav-tab:hover {
+    font-weight: 500;
+}
+
+/* Styling the mail icon */
+#mail-icon {
+    font-size: 20px;
+}
+
+/* Styling the intro */
+.intro {
+    width: 700px;
+    padding: 0px 0px 0px 150px;
+}
+
+/* Styling the intro */
+.intro {
+    width: 600px;
+    padding: 0px 0px 0px 160px;
+}
+
+.intro h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin: 40px 0px 0px 0px;
+}
+
+.intro h1 {
+    font-size: 65px;
+    font-weight: 600;
+    margin: 20px 0px 0px 0px;
+}
+
+.intro p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0px 0px 0px;
+}
+
+#memoji img {
+    width: auto;
+    height: 350px;
+    position: absolute;
+    top: 150px; left: 900px;
+}
+
+.project {
+    height: 800px;
+}
+
+.project h2 {
+    text-align: center;
+    font-size: 35px;
+    padding: 10px 0px;
+}
+
+.project h3 {
+    font-size: 30px;
+}
+
+.project p {
+    font-size: 18px;
+}
+
+.project img {
+    height: 300px;
+}
+
+.project-child {
+    width: 45%;
+    height: 300px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}  
+
+.project-text {
+    margin-left: 40px;
+}
+
+footer {
+    background-color:#F5DADF;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+button {
+    border: solid 1.5px black;
+    color: black;
+    background-color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: gopher, sans-serif;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #F5DADF;
+    font-weight: 500;
+}
+
+.about-main {
+    height: 550px;
+    background-color: #F5DADF;
+
+}
+
+.about-child {
+    width: 45%;
+    height: 300px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-child img {
+    width: 350px;
+    margin-top: 20px;
+}
+
+.about-text {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.resume-main {
+    height: 800px;
+    background-color: #F5DADF;
+    text-align: center;
+}
+
+.resume-main img {
+    height: 750px;
+    margin-top: 20px;
+}
+
+
+
+
